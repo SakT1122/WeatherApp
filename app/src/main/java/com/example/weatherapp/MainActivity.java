@@ -27,8 +27,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import com.example.weatherapp.Models.main;
 
 
-//  80409e07282e463da7a67d85222710b6
-//  https://api.openweathermap.org/data/2.5/weather?q=Nagpur&appid=80409e07282e463da7a67d85222710b6&units=metric
 
 
 public class MainActivity extends AppCompatActivity {
@@ -91,10 +89,7 @@ public class MainActivity extends AppCompatActivity {
                     binding.humidity.setText(String.valueOf(to.getHumidity()));
                     binding.mainn.setText(String.valueOf(weatherData.getWeathers()));
 
-//                    List<weather> list=weatherData.getWeathers();
-//                    for(weather data:list){
-//                        binding.mainn.setText(data.getDescription());
-//                    }
+//
 
                 }else{
                     Toast.makeText(MainActivity.this, "gyhkujbm", Toast.LENGTH_SHORT).show();
@@ -111,3 +106,5 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+//  80409e07282e463da7a67d85222710b6
+//  https://api.openweathermap.org/data/2.5/weather?q=Nagpur&appid=80409e07282e463da7a67d85222710b6&units=metric
